@@ -1,5 +1,5 @@
 {
-  "name": "typescript-boilerplate",
+  "name": "node-ts-boilerplate",
   "version": "1.0.0",
   "description": "Boilerplate code for TypeScript projects",
   "main": "src/server.ts",
@@ -16,14 +16,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/danielnguyen/typescript-boilerplate.git"
+    "url": "git+https://github.com/danielnguyen/node-ts-boilerplate.git"
   },
   "author": "Daniel Nguyen",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/danielnguyen/typescript-boilerplate/issues"
+    "url": "https://github.com/danielnguyen/node-ts-boilerplate/issues"
   },
-  "homepage": "https://github.com/danielnguyen/typescript-boilerplate#readme",
+  "homepage": "https://github.com/danielnguyen/node-ts-boilerplate#readme",
   "devDependencies": {
     "@types/node": "^8.0.47",
     "jest": "^21.2.1",
