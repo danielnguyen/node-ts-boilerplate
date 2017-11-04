@@ -1,7 +1,9 @@
+[![Build Status](https://travis-ci.org/danielnguyen/typescript-boilerplate.png?branch=master)](https://travis-ci.org/danielnguyen/typescript-boilerplate)
 [![Dev dependencies][dependencies-badge]][dependencies]
 [![Node.js version][nodejs-badge]][nodejs]
 [![NPM version][npm-badge]][npm]
-<!--[![Build Status][travis-badge]][travis-ci]-->
+[![Inline docs](http://inch-ci.org/github/danielnguyen/typescript-boilerplate.svg?branch=master)](http://inch-ci.org/github/danielnguyen/typescript-boilerplate)
+
 
 # TypeScript Builerplate
 
