@@ -16,6 +16,7 @@ TypeScript Boilerplate is a general purpose starter code for TypeScript projects
 - TypeScript 2.6.1
 - TSLint 5.x with [Microsoft recommended rules](https://github.com/Microsoft/tslint-microsoft-contrib)
 - Nodemon
+- Docker build
 
 ## Available scripts
 
