@@ -1,0 +1,40 @@
+{
+  "name": "typescript-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate code for TypeScript projects",
+  "main": "src/server.ts",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "clean": "rimraf coverage build tmp",
+    "start:watch": "nodemon --exec ./node_modules/.bin/ts-node -- ./src/server.ts",
+    "lint": "tslint -t stylish --project \"tsconfig.json\"",
+    "test": "jest --coverage",
+    "test:watch": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielnguyen/typescript-boilerplate.git"
+  },
+  "author": "Daniel Nguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielnguyen/typescript-boilerplate/issues"
+  },
+  "homepage": "https://github.com/danielnguyen/typescript-boilerplate#readme",
+  "devDependencies": {
+    "@types/node": "^8.0.47",
+    "jest": "^21.2.1",
+    "nodemon": "^1.12.1",
+    "rimraf": "^2.6.2",
+    "ts-node": "^3.3.0",
+    "tslint": "^5.8.0",
+    "tslint-microsoft-contrib": "^5.0.1",
+    "typescript": "^2.6.1"
+  },
+  "engineStrict": true,
+  "engines": {
+    "node": ">= 8.9.0"
+  }
+}
