@@ -20,9 +20,10 @@ TypeScript Boilerplate is a general purpose starter code for TypeScript projects
 ## Available scripts
 
 - `clean` - Clean up and delete coverage data, Jest cache and transpiled files
-- `start:watch` - transpile TypeScript to ES6, run and watch with Nodemon
-- `lint` - lint source files and tests
-- `test` - run tests
+- `start` - Starts the project with `ts-node`
+- `start:watch` - Transpile TypeScript to ES6, run and watch with Nodemon
+- `lint` - Lint source files and tests
+- `test` - Run tests
 - `test:watch` - Run tests in interactive mode
 
 ## Available tests
